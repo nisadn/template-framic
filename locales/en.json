@@ -439,10 +439,6 @@
     "wrongEmail": "Please use the email that you used to create the order"
   },
   "paymentMethod": {
-<<<<<<< HEAD
-    "copySuccess": "Copied Successfully",
-    "downloadQrSuccess": "Image Downloaded Successfully"
-=======
     "continuePayment": "Continue to Payment",
     "copySuccess": "Copied Successfully",
     "counterInstruction": "Show this barcode to the cashier",
@@ -454,7 +450,6 @@
     "qrDownload": "Download QR Code",
     "qrInstruction": "Scan the QR code via an e-wallet or m-banking application that supports QRIS payments.",
     "seeMore": "For more info, see"
->>>>>>> 99443cb3899cf6eef642c54deb098553a8af1ede
   },
   "paymentStatus": {
     "continueShopping": "Continue Shopping",

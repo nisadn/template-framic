@@ -27,10 +27,6 @@ const classesMaintenance = {
 
 function MyApp({ Component, pageProps, router }) {
   const apolloClient = useApollo(pageProps.initialApolloState);
-<<<<<<< HEAD
-  // Temporarily using persistent layout for PDP
-=======
->>>>>>> 99443cb3899cf6eef642c54deb098553a8af1ede
   const getLayout = Component.getLayout ?? ((page) => page);
 
   const [hash, setHash] = useState("");
@@ -58,11 +54,7 @@ function MyApp({ Component, pageProps, router }) {
           <TemplateFeatureFlag>
             <MaintenanceMode classes={classesMaintenance}>
               <I18n lngDict={pageProps.lngDict} locale={pageProps.lng}>
-<<<<<<< HEAD
-              {Component.getLayout ? getLayout(<Component {...pageProps} />) : <Component {...pageProps} />}
-=======
                 {Component.getLayout ? getLayout(<Component {...pageProps} />) : <Component {...pageProps} />}
->>>>>>> 99443cb3899cf6eef642c54deb098553a8af1ede
                 <Widget pos="script" hash={hash} />
               </I18n>
             </MaintenanceMode>
