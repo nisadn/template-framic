@@ -1,9 +1,13 @@
 /* library package */
+<<<<<<< HEAD
 import {
   FC,
   ReactElement,
   ReactNode
 } from 'react'
+=======
+import { FC, ReactElement } from 'react'
+>>>>>>> 99443cb3899cf6eef642c54deb098553a8af1ede
 import {
   useI18n,
   getProductDetail,
@@ -12,6 +16,7 @@ import {
 import { LazyLoadComponent } from 'react-lazy-load-image-component'
 /* library template */
 import { useBrand } from 'lib/useBrand'
+import { NextPageWithLayout } from 'lib/commonTypes'
 /* component */
 import Layout from 'components/Layout/Layout'
 import { GRAPHQL_URI } from 'components/Constants'
@@ -26,11 +31,15 @@ interface ProductProps {
   urlSite?: string
 }
 
+<<<<<<< HEAD
 // Temporary adding getLayout attribute. 
 // TODO: Will be organized in a better way if the solution is right.
 const Product: FC<ProductProps> & {
   getLayout?: (page: ReactElement) => ReactNode
 } = ({
+=======
+const Product: FC<ProductProps> & NextPageWithLayout = ({
+>>>>>>> 99443cb3899cf6eef642c54deb098553a8af1ede
   lng,
   slug,
   data,

@@ -43,7 +43,10 @@ const ProductHighlightPage: FC<any> = ({
       defaultChildren={<Error404Page />}
     >
       <Layout
+<<<<<<< HEAD
         i18n={i18n}
+=======
+>>>>>>> 99443cb3899cf6eef642c54deb098553a8af1ede
         lng={lng}
         lngDict={lngDict}
         brand={brand}
